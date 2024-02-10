@@ -14,7 +14,7 @@ public class OrderController {
 
     // 주문하기
     @PostMapping("/")
-    @ResponseStatus(HttpStatus.CREATED)
+    @ResponseStatus(HttpStatus.CREATED:)
     public String order() {
         return "주문하기";
     }
